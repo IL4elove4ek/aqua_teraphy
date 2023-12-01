@@ -1,0 +1,491 @@
+  /* @import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');              */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      background-color: #162831;
+      font-family: 'Proxima Nova Condensed', sans-serif;
+  }
+
+  header {
+      width: 1298px;
+      margin: auto;
+  }
+
+  .header__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+  }
+
+  .menu {
+      list-style: none;
+      width: 655px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .menu a {
+      text-decoration: none;
+      color: var(--white, #FFF);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 135%;
+  }
+
+  .header__btn {
+      border-radius: 3px;
+      background: #018ABE;
+      border: none;
+      padding: 9px 15px;
+      color: #FFF;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 140%;
+  }
+
+  .header__bottom {
+      background-image: url(img/waterg.png);
+      height: 600px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .bottom__subtitle {
+      width: 429px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+
+  }
+
+  .bottom__subtitle h4 {
+      color: #FFF;
+      text-align: center;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+  }
+
+  h1 {
+      width: 587PX;
+      color: var(--white, #FFF);
+      text-align: center;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 140%;
+      margin-bottom: 77px;
+  }
+
+  .container {
+      width: 1296px;
+      margin: auto;
+  }
+
+  .title {
+
+      display: flex;
+      justify-content: space-between;
+      margin: 150px auto;
+      padding-bottom: 100px;
+  }
+
+  .wd-3 {
+      width: 389px;
+  }
+
+  .wd-1 {
+      width: 482px;
+  }
+
+  .title h2 {
+      color: var(--white, #FFF);
+      text-align: center;
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+
+  }
+
+  .session__cards {
+      color: #FFF;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 140%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .big-card {
+      width: 416px;
+      height: 540px;
+      background-image: url(img/unsplash_TnOyyEtrKd0.png);
+      padding-top: 456px;
+      padding-left: 50px;
+      transition: 0.5s;
+  }
+
+  .small__card {
+      width: 856px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+  }
+
+  .small {
+      width: 416px;
+      height: 258px;
+      background-image: url(img/wopool.png);
+      margin-bottom: 24px;
+  }
+
+  .left {
+      padding-top: 194px;
+      padding-left: 40px;
+      transition: 0.5s;
+  }
+
+  .right {
+      padding-top: 160px;
+      padding-left: 40px;
+      transition: 0.5s;
+  }
+
+  .right p {
+      width: 336px;
+  }
+
+  .title__ot {
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
+      margin: 150px auto;
+      padding-bottom: 100px;
+  }
+
+  .title__ot h2 {
+      color: var(--white, #FFF);
+      text-align: center;
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+  }
+
+
+
+  .size {
+      width: 500px;
+      height: 276px;
+      flex-shrink: 0;
+      display: inline-block;
+      border-radius: 10px;
+      background: var(--accent, #018ABE);
+      font-size: smaller;
+
+      display: inline-block;
+      font-size: 10px;
+      color: white;
+  }
+
+  .size {
+
+      width: 410px;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 140%;
+      transition: 0.5s;
+  }
+
+  .size h2 {
+      padding-bottom: 20px;
+  }
+
+  .one {
+      margin-left: 50px;
+      margin-right: 50px;
+      padding: 45px 40px 45px;
+  }
+
+  .two {
+      border-radius: 10px;
+      background: var(--accent, #018ABE);
+      width: 636px;
+      height: 350px;
+      display: inline-block;
+      color: white;
+      padding: 60px 20px 60px 56px;
+      position: relative;
+      bottom: 45px;
+      transition: 0.5s;
+  }
+
+  .two p {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 140%;
+  }
+
+  .two h2 {
+      padding-bottom: 20px;
+  }
+
+  .three {
+      padding: 45px 40px 45px;
+      margin-right: 50px;
+      margin-left: 50px;
+  }
+
+  main {
+
+      display: flex;
+      justify-content: center;
+  }
+
+  .main {
+      display: flex;
+      justify-content: center;
+  }
+
+  .about {
+      width: 1076px;
+      margin: auto;
+  }
+
+  .text {
+      width: 466px;
+  }
+
+  .ht1 {
+      height: 234px;
+      align-self: center;
+  }
+
+  .ht2 {
+      height: 366px;
+      padding-top: 117px;
+
+  }
+
+  .text h3 {
+      color: #FFF;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 140%;
+  }
+
+  .about__cards {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .about-img {
+      margin-top: 100px;
+      transition: 0.5s;
+  }
+
+  .text p {
+      padding-top: 30px;
+      color: #FFF;
+      font-size: 16px;
+
+      font-weight: 300;
+      line-height: 140%;
+  }
+
+  .text span {
+      padding-top: 25px;
+      display: block;
+  }
+
+  .wd-4 {
+      width: 518px;
+  }
+
+  .price {
+      width: 1076px;
+      margin: 150px auto;
+  }
+
+  .price ul {
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 140%;
+      list-style-image: url(img/lmb.svg);
+  }
+
+  .price li {
+      padding-left: 20px;
+      padding-bottom: 31px;
+  }
+
+  .price-list {
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 140%;
+
+  }
+
+  .price-list p {
+      padding-bottom: 31px;
+  }
+
+  .price__content {
+      width: 416px;
+      display: flex;
+      justify-content: space-between;
+
+  }
+
+  .price__gift h6 {
+      color: #FFF;
+      text-align: center;
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 140%;
+
+  }
+  .price__gift{
+    transition: 0.5s;
+  }
+  .price__session {
+      width: 1076px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  footer {
+      width: 1296px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      
+
+  }
+
+  .footer__card {
+      width: 392px;
+      height: 290px;
+      border-radius: 10px;
+      background: #018ABE;
+      margin-bottom: 24px;
+      transition: 0.5s;
+  }
+
+  .map {
+      list-style-image: url(img/loc.svg);
+  }
+
+  .street {
+      list-style-image: url(img/metro.svg);
+  }
+
+  .offer {
+      list-style-image: url(img/calendar.svg);
+  }
+
+  .footer__card h3 {
+      color: #FFF;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 140%;
+      padding-top: 35px;
+      padding-left: 45px;
+  }
+
+  .footer__card ul {
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 135%;
+      margin-top: 20px;
+      margin-left: 65px;
+
+  }
+
+  .footer__card li {
+      padding-bottom: 21px;
+      padding-left: 20px;
+  }
+
+  .footer__card button {
+      border-radius: 3px;
+      background: #FFF;
+      padding: 9px 15px;
+      color: #018ABE;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 140%;
+      margin-left: 45px;
+      margin-top: 8px;
+  }
+  .footmap{
+    transition: 0.5s;
+  }
+  .time:hover{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color:#018ABE;
+  }
+  .header__btn:hover{
+    border-radius: 0px;
+    transition: 0.5s;
+  }
+.big-card:hover{
+    transform: scale(1.2);
+    
+}
+.left:hover{
+    transform: scale(1.2);
+}
+.right:hover{
+    transform: scale(1.2);
+}
+.size:hover{
+    transform: scale(1.2);
+}
+.two:hover{
+    transform: scale(1.2);
+}
+.about-img2{
+    transition: 0.5s;
+}
+.about-img2:hover{
+    transform: scale(1.2);
+}
+.about-img:hover{
+    transform: scale(1.2);
+}
+.price__gift:hover{
+    transform: scale(1.2);
+}
+.footmap:hover{
+    transform: scale(1.2);
+}
+.footer__card:hover{
+    transform: scale(1.2);
+}
+.footer__card button:hover{
+    transform: scale(1.2);
+}
